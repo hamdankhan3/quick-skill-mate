@@ -33,12 +33,12 @@ const Hero = () => {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="w-full sm:w-auto text-base px-8" asChild>
-              <Link to="/signup">
-                Find a Worker <ArrowRight className="ml-2 h-4 w-4" />
+              <Link to="/hire">
+                Hire a Worker <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base px-8" asChild>
-              <Link to="/signup">Join as a Worker</Link>
+              <Link to="/offer">Offer Your Services</Link>
             </Button>
           </div>
         </motion.div>
