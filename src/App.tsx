@@ -10,6 +10,7 @@ import Categories from "./pages/Categories";
 import CategoryDetail from "./pages/CategoryDetail";
 import HireWorkers from "./pages/HireWorkers";
 import OfferServices from "./pages/OfferServices";
+import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/categories/:slug" element={<CategoryDetail />} />
           <Route path="/hire" element={<HireWorkers />} />
           <Route path="/offer" element={<OfferServices />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
