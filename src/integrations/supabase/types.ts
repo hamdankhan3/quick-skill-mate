@@ -323,6 +323,10 @@ export type Database = {
         }
         Returns: boolean
       }
+      shares_job_with: {
+        Args: { _other: string; _viewer: string }
+        Returns: boolean
+      }
     }
     Enums: {
       app_role: "customer" | "worker" | "admin"
