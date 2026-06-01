@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Search } from "lucide-react";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
 import { Input } from "@/components/ui/input";
@@ -16,6 +17,11 @@ const CategoriesPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="All Service Categories — Electricians, Plumbers & More | M Plus"
+        description="Browse 8 service categories on M Plus. Find trusted local electricians, plumbers, mechanics, painters, cleaners and more near you."
+        path="/categories"
+      />
       <Header />
       <main className="flex-1">
         <section className="border-b border-border bg-gradient-to-br from-primary/5 via-transparent to-accent/5 py-14">

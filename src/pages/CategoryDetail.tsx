@@ -1,6 +1,7 @@
 import { Link, useParams, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, CheckCircle2, MapPin, Star } from "lucide-react";
+import SEO from "@/components/SEO";
 import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
 import { Button } from "@/components/ui/button";
@@ -16,6 +17,19 @@ const CategoryDetail = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title={`Hire a ${cat.name} Near You | M Plus`}
+        description={`${cat.tagline} ${cat.description}`}
+        path={`/categories/${cat.slug}`}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: cat.name,
+          description: cat.description,
+          provider: { "@type": "Organization", name: "M Plus" },
+          areaServed: "Local",
+        }}
+      />
       <Header />
       <main className="flex-1">
         <section className="border-b border-border bg-gradient-to-br from-primary/5 via-transparent to-accent/5 py-12">

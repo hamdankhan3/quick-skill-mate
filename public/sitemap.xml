@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://quick-skill-mate.lovable.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/electrician</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/plumber</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/mechanic</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/ac_technician</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/painter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/cleaner</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/handyman</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/categories/construction</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/hire</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/offer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/login</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://quick-skill-mate.lovable.app/signup</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>
